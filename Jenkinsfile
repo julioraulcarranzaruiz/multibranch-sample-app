@@ -10,7 +10,6 @@ pipeline {
       }
     }
     stage('cat README') {
-    {
       when {
         branch "fix-*"
       }
